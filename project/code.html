@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="pag.css">
+    <h1>What Can JavaScript Do?</h1>
+    <h2>JavaScript chaned HTML attribute values</h2>
+    
+    <button id="on">Turn on the light</button>
+    <img src="" alt="">
+    <button id="off">Turn off the light</button>
+    
+    
+    <script>
+       
+       
+       var on=document.querySelector("#on");
+       on.addEventListener("click",onfn);
+
+       var off=document.querySelector("#off");
+       off.addEventListener("click",offfn);
+
+       function onfn(){
+           var img =document.querySelector("img");
+           img.setAttribute("src","pic_bulboff (1).gif");
+       }
+
+       function offfn(){
+        var img =document.querySelector("img");
+        img.setAttribute("src","pic_bulbon (1).gif");
+
+       }
+
+        
+
+    </script>
+
+    <!-- How we can chang the color in html with Js
+    <h1>The Header</h1>
+    <h2>hello world</h2>
+    <ul> 
+       <li id="h">   <a href="#">Home</a></li> 
+        <li id="a">About</li>
+    </ul>
+    <h3>Don!</h3>
+    <script>
+    var item =document.querySelector("h1");
+    item.style.color="red";
+
+    var hello=document.querySelector("h2");
+    hello.style.backgroundColor="black";
+    hello.style.color="white";
+    
+    h.style.color="purple";
+    a.style.color="orange";
+
+
+        </script>
+
+
+
+          the time in screen
+        setInterval(function(){
+
+        var today =new date();
+        var time = today.getHours()+ " : "+today.getMinutes()+ " : "+today.getSeconds()
+        document.querySelector("h1").textContent=time;
+    }, 1000)
+    time.style.color="red";
+       
+    
+
+
+    pags color
+    var h1= document.querySelector("h1");
+    
+    setInterval(function(){
+    var today =new Date();
+    var time = today.getHours()+ " : "+today.getMinutes()+ " : "+today.getSeconds();
+    h1.textContent=time;
+
+}, 1000)
+    
+      var h1= document.querySelector("body");
+      var colrrs=["red","blue","green"];
+      setInterval(function(){
+          var ran= Math.floor(Math.random()*colors.length);
+          var color=colors[ran];
+          h1.style.backgroundColor = color;
+      },1000);
+
+
+      loop
+       var h1 = document.querySelector("h1");
+        h1.style.color = "red";
+
+        var i = 1;
+        while (i < 11) {
+            var li = document.createElement("li");
+            li.textContent = "Count" + i;
+            li.style.color = "Black";
+            
+            var ul = document.querySelector("ul");
+            ul.appendChild(li);
+            i++;
+    
+      -->
+</body>
+
+</html>

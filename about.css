@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.7rem;
+    }
+    a{
+        text-decoration: none;
+        color: #333;
+    }
+    h1,h2,h3{
+        padding-bottom: 20px;
+    }
+    p{
+        margin: 10px 0;
+    }
+
+
+
+    .container{
+        width: 900px;
+        margin: 0 auto;
+    }
+  
+    #navbar{
+        background-color: #333;
+        color: white;
+        overflow: hidden;
+    
+    }
+
+     
+    #navbar h1{
+    float: left;
+    padding: 20px;
+
+}
+   #navbar h1 a{
+    color: white;
+} 
+#navbar ul{
+    float: right;
+    list-style-type: none;
+
+}
+#navbar  ul  li  a{
+    color: white;
+    display: block;
+    padding: 20px;
+
+}
+#navbar  ul li a:hover  {
+    background-color: #444;
+    color: #f7c08a;
+}
+#navbar ul li {
+    float: left;
+}
+
+  
+
+.text-primery{
+    color: #f7c08a;
+}
+
+#slidshowe{
+    background-image: url("photo-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    float: right;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+
+}
+
+#slidshowe .slidshowe-container{
+    text-align: left;
+    color:black;
+    padding-top: 120px;
+}
+
+
+
+#slidshowe .slidshowe-container h1{
+
+    font-size: 60px;
+
+}
+#slidshowe .slidshowe-container p{
+    
+    font-size: 20px;
+    padding: 0px;
+}
+#testimonials{
+    background-image: url("test-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+#testimonials .l-heading{
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#testimonials .person1{
+    background-color: #f7c08a;
+    padding: 20px;
+    padding-bottom: 25px;
+    overflow: hidden;
+    opacity: 0.9;
+    border-radius: 5px;
+    margin-bottom: 30px;
+
+}
+#testimonials .person1 img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+#testimonials .person1 p {
+    padding: 20px 0px;
+}
+#testimonials .person2{
+    background-color: #f7c08a;
+    padding: 20px;
+    padding-bottom: 25px;
+    overflow: hidden;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+#testimonials .person2 p {
+    padding: 20px 0px;
+}
+#testimonials .person2 img{
+    float: left;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+
+
+#footer{
+    clear: both;
+    text-align: center;
+    background-color: #333;
+    height: 80px;
+    padding-top: 20px;
+    color: white;
+    
+}

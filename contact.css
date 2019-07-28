@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.7rem;
+    }
+    a{
+        text-decoration: none;
+        color: #333;
+    }
+    h1,h2,h3{
+        padding-bottom: 20px;
+    }
+    p{
+        margin: 10px 0;
+    }
+    
+    /*Utilties*/
+    .container{
+        width: 900px;
+        margin: 0 auto;
+    }
+    /*  Navbar */
+    
+    
+    #navbar{
+        background-color: #333;
+        color: white;
+        overflow: hidden;
+    
+    }
+     
+    #navbar h1{
+        float: left;
+        padding: 20px;
+    
+    }
+    
+    #navbar h1 a{
+        color: white;
+    }
+    #navbar ul{
+        float: right;
+        list-style-type: none;
+    
+    }
+    #navbar  ul  li  a{
+        color: white;
+        display: block;
+        padding: 20px;
+    
+    }
+    
+    #navbar  ul li a:hover  {
+        background-color: #444;
+        color: #f7c08a;
+    }
+    #navbar ul li {
+        float: left;
+    }
+    
+    /*text*/
+    .text-primery{
+        color: #f7c08a;
+    }
+
+
+    #slidshowe .slidshowe-container h1{
+        text-align: left;
+        color: black
+    }
+
+    #Name{
+        height: 30px;
+        width: 800px;
+    }
+
+    #emil{
+        height: 30px;
+        width: 800px;
+    }
+
+    #last{
+        padding: 2%;
+        margin: 2px;
+        background-color: #f7c08a;
+        color: black;
+        text-align: center;
+        border: #333 2px dashed;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 5px;
+        float: left;
+        
+    }
+
+
+
+    #footer{
+        clear: both;
+        text-align: center;
+        background-color: #333;
+        height: 80px;
+        padding-top: 20px;
+        color: white;
+        
+    }
+
+

@@ -1,0 +1,212 @@
+/*Bases element */
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7rem;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+p{
+    margin: 10px 0;
+}
+
+/*Utilties*/
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+/*  Navbar */
+
+
+#navbar{
+    background-color: #333;
+    color: white;
+    overflow: hidden;
+
+}
+ 
+#navbar h1{
+    float: left;
+    padding: 20px;
+
+}
+
+#navbar h1 a{
+    color: white;
+}
+#navbar ul{
+    float: right;
+    list-style-type: none;
+
+}
+#navbar  ul  li  a{
+    color: white;
+    display: block;
+    padding: 20px;
+
+}
+
+#navbar  ul li a:hover  {
+    background-color: #444;
+    color: #f7c08a;
+}
+#navbar ul li {
+    float: left;
+}
+
+/*text*/
+.text-primery{
+    color: #f7c08a;
+}
+
+.but{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.but :hover{
+    background-color: #f7c08a;
+    color: #333;
+}
+
+/* slideshow*/
+
+#slidshowe{
+    background-image: url("showcase.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+}
+
+#slidshowe .slidshowe-container{
+    text-align: center;
+    color: white;
+    padding-top: 120px;
+}
+
+#slidshowe .slidshowe-container h1{
+    font-size: 60px;
+
+}
+#slidshowe .slidshowe-container p{
+    font-size: 20px;
+    padding: 0px;
+}
+.btn{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    border:none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #f7c08a;
+    color: black;
+}
+
+#Home{
+    background-color: #333;
+    height: 400px;
+    overflow: hidden;
+}
+#Home .Home-Img{
+    background-image: url("test-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+#Home .Home-contact{
+    float: right;
+    width: 50%;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    height: 100px;
+}
+.btn1{
+    
+        background-color: white;
+        color:#333;
+        padding: 20px;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+    
+}
+.btn1:hover{
+    background-color: #f7c08a;
+    color: #333
+}
+
+#features .box{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+#features .dark{
+    background-color: #f7c08a;
+}
+
+#features .light{
+    background-color: #f4f4f4
+
+}
+#footer{
+    clear: both;
+    text-align: center;
+    background-color: #333;
+    height: 80px;
+    padding-top: 20px;
+    color: white;
+    
+}
+/*body{
+
+    background-color: cadetblue;
+}
+
+h1{
+    border: 2px blueviolet solid;
+}
+h3{
+    background-color: yellow;
+}
+h2{
+    color: blueviolet;
+}
+textarea{
+    border: 2.5 blue dashed;
+}
+box{
+    color: blueviolet;
+}
+input{
+    border: 2 black solid;
+}
+div{
+    background-color: blue;
+    border: 2 yellow dashed;
+
+}
+.bb{
+    background-color: yellow;
+}
+*/
